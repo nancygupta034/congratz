@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Customer Dashboard</title>
+      <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">     
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   </head>
+   <body>
+      <!-- Sidebar navigation starts here -->
+      <aside class="dash_sidebar" id="dashSidebar">
+         <a class="sidebar_toggle" href="javascript:void(0);"><span class="icon-right-arrow-angle"></span></a>
+         <div class="sidebar_container">
+            <div class="dash_logo">
+               <a href="javascript:void();" class="lgog">
+                  <img src="images/logo.png">
+               </a>
+            </div>
+            <div class="sidebar_block">
+               <div class="sidebar_profile">
+                  <figure class="profile_logo">
+                       <img src="http://congratz.beesmartitsolutions.com/frontend/images/Justin-Bieber-img.jpg">
+                  </figure>
+                  <div class="profile-infomation">
+                     <h3 class="pro_name">John Doe</h3>
+                     <h6 class="accout_name">@Lorem ipsum</h6>
+                     <ul class="profile_actions">
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"> <i class="fa fa-cog" aria-hidden="true"></i></a>
+                        </li> 
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"> <i class="fa fa-power-off" aria-hidden="true"></i></a>
+                        </li>                       
+                     </ul>
+                  </div>
+               </div>
+               <nav class="sidebar_nav">
+                  <ul class="navigation">
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                           <h4>My Profile</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                           <h4>Invite User</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                           <h4>Wishlist</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                           <h4>Booking</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+                           <h4>Personalized Videos</h4>
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </aside>
+      <!-- Sidebar navigation Ends here -->
+      <!-- Dashboard main content -->
+<main class="main_layout">
+  <div class="container-fluid">
+    <div class="content-block">
+       <div class="main-heading mb-5">
+           <h2>Personalized Video</h2>
+        </div>
+        <div class="card-block p-0">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="video-section">
+              <figure class="video-image">
+                <img src="images/Justin_Bieber.jpg">
+              </figure>
+              <figcaption>
+                <div class="play-icon">
+                <button type="button" class="btn video-btn bg-transparent" data-toggle="modal" data-src="https://www.youtube.com/embed/A-twOC3W558" data-target="#myModal">
+                <i class="fas fa-play"></i>
+              </button>
+               </div>
+                <div class="video-caption">
+                  <p class="text-center">#birthday</p>
+                </div>
+              </figcaption>
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                 <div class="modal-body p-0">
+                  <div class="embed-responsive embed-responsive-16by9">
+                   <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div> 
+            <div class="btn-wrap mt-5 d-f j-c-s-b mb-4">
+              <a href="javascript:void(0);" class="main-btn2 mx-3">Copy Link</a>
+              <a href="javascript:void(0);" class="main-btn2">Download</a>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-lg-7">
+            <div class="Personalized-details p-4">
+              <div class="card_head d-f j-c-s-b a-i-c">
+               <div class="tr_user_info">
+                 <figure class="profile_logo">
+                   <img src="http://congratz.beesmartitsolutions.com/frontend/images/Justin-Bieber-img.jpg">
+                 </figure>
+                 <figcaption class="tr_pro_info">
+                   <h3 class="tr_name d-inline">Justin Bieber</h3>
+                     <figure class="tr_profile_flag d-inline">
+                      <img src="images/flag.jpg">
+                     </figure>
+                   <div class="tr-cate-rating d-f a-i-c">
+                     <div class="cate_name mr-3"> <span>Female</span>| <span>40 Years</span></div>
+                 
+                   </div>
+                 </figcaption>
+               </div>
+              
+            </div> 
+            <div class="card_body">
+            <div class="full_block_icon text-center mt-4 mb-4">
+            <span class="sec-heading-icon mt-0"><i class="icon-review"></i></span>
+            </div>
+            <div class="celebrity_message">
+            <h3>Your Message :</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    
+    <!--          <div class="btn-wrap mt-4 d-f j-c-s-b">
+                <a href="javascript:void(0);" class="main-btn2"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="javascript:void(0);" class="main-btn2"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="javascript:void(0);" class="main-btn2"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+                <a href="javascript:void(0);" class="main-btn2"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+                 <a href="javascript:void(0);" class="icon-btn rounded-circle"><i class="fas fa-ellipsis-h"></i></a>
+             </div> -->
+          </div>
+           <div class="full_block_icon text-center mt-4 mb-4">
+            <span class="sec-heading-icon mt-0"><i class="icon-review"></i></span>
+            </div>
+
+            <div class="personalized_reviews">
+              <h3>Customer Review :</h3>
+            <!--    <div class="card-inn-heading d-f j-c-s-b mb-2">
+                  <a href="javascript:void(0);" class="main-btn">See all 42 review</a>
+                  <div class="btn-wrap">
+                    <a href="javascript:void(0);" class="main-btn2">Add Review</a>
+                  </div>
+               </div> -->
+              <div class="tr_rating">
+                 <span class="rating-star"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                 <span class="rating-count">5 Stars</span>
+                 <h4 class="review_by mt-2">Reviewed by p***** in Dec 13th, 2020</h4>
+                 <p class="review-message d-inline">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book....</p><a href="javascript:void(0);" class="main-btn d-inline fs-6">more</a>
+             </div>
+            </div>
+
+              <div class="full_block_icon text-center mt-4 mb-4">
+            <span class="sec-heading-icon mt-0"><i class="icon-review"></i></span>
+            </div>
+
+            <div class="setting-btns d-f align-items-baseline">
+               <h3>Set Video to profile</h3>
+                  <label class="switch ml-4">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </div>
+               <div class="setting-btns d-f align-items-baseline">
+               <h3>Set Review to profile</h3>
+                  <label class="switch ml-4">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </div>
+
+             
+           </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+            </div>
+          </div>
+      </main>
+       <!-- Dashboard main content End -->
+
+      <!-- Scripting starts here -->
+      <script src="js/jquery-3.1.0.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/animation.js"></script>
+      <script type="text/javascript" src="js/smooth-scrollbar.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script type="text/javascript">
+           var Scrollbar = window.Scrollbar;
+
+  Scrollbar.init(document.querySelector('.sidebar_block'));
+
+
+  $(document).ready(function() {
+
+var $videoSrc;  
+$('.video-btn').click(function() {
+    $videoSrc = $(this).data( "src" );
+});
+console.log($videoSrc);  
+$('#myModal').on('shown.bs.modal', function (e) {
+    
+$("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+})
+
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#video").attr('src',$videoSrc); 
+}) 
+     
+});
+
+</script>
+
+   </body>
+</html>

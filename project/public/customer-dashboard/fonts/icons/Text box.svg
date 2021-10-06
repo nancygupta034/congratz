@@ -1,0 +1,19 @@
+<svg id="Text_box" data-name="Text box" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="466" height="200" viewBox="0 0 466 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="466" height="200" rx="5" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path)">
+    <g id="Light" transform="translate(-30.736 -29.952)" fill="none" stroke="#fff" stroke-width="4">
+      <rect width="496.736" height="229.952" rx="5" stroke="none"/>
+      <rect x="2" y="2" width="492.736" height="225.952" rx="3" fill="none"/>
+    </g>
+    <g id="Dark" fill="none" stroke="rgba(88,108,138,0.5)" stroke-width="3">
+      <rect width="496.736" height="234.783" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="493.736" height="231.783" rx="3.5" fill="none"/>
+    </g>
+  </g>
+  <text id="Summary" transform="translate(52 36)" fill="#ababab" font-size="18" font-family="Oswald-Light, Oswald" font-weight="300"><tspan x="0" y="0">Summary</tspan></text>
+  <path id="pen" d="M7.158,17.328,2.665,12.835,13.531,1.97l4.492,4.492Zm-4.912-3.7,4.121,4.121L.188,19.805ZM19.4,5.086l-.779.779-4.5-4.5.779-.779a2.009,2.009,0,0,1,2.843,0L19.4,2.244a2.021,2.021,0,0,1,0,2.843Zm0,0" transform="translate(22.561 18)" fill="#ababab"/>
+</svg>

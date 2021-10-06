@@ -1,0 +1,22 @@
+<svg id="happy" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_329" data-name="Group 329">
+    <g id="Group_328" data-name="Group 328">
+      <path id="Path_320" data-name="Path 320" d="M14,0A14,14,0,1,0,28,14,14,14,0,0,0,14,0Zm0,26.25A12.25,12.25,0,1,1,26.25,14,12.25,12.25,0,0,1,14,26.25Z" fill="#333"/>
+    </g>
+  </g>
+  <g id="Group_331" data-name="Group 331" transform="translate(7.714 7.714)">
+    <g id="Group_330" data-name="Group 330">
+      <circle id="Ellipse_101" data-name="Ellipse 101" cx="2" cy="2" r="2" fill="#333"/>
+    </g>
+  </g>
+  <g id="Group_333" data-name="Group 333" transform="translate(16.286 7.714)">
+    <g id="Group_332" data-name="Group 332">
+      <circle id="Ellipse_102" data-name="Ellipse 102" cx="2" cy="2" r="2" fill="#333"/>
+    </g>
+  </g>
+  <g id="Group_335" data-name="Group 335" transform="translate(5 13.217)">
+    <g id="Group_334" data-name="Group 334">
+      <path id="Path_321" data-name="Path 321" d="M128,256a7,7,0,0,1-14,0h-2a9,9,0,0,0,18,0Z" transform="translate(-112 -256)" fill="#333"/>
+    </g>
+  </g>
+</svg>

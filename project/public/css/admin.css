@@ -1,0 +1,775 @@
+.form-group {
+    position: relative;
+}
+
+label.error {
+    position: absolute;
+    color: red;
+    font-weight: normal !important;
+    right: 0px;
+}
+
+p.error {
+    position: absolute;
+    color: red;
+    font-weight: normal !important;
+    right: 0px;
+}
+
+.BORDER {
+    border: 1px solid red;
+}
+
+.error-msg{
+  color: red;
+  font-size: 12px;
+}
+
+
+/*profile image*/
+
+
+.profile-image{
+    width: 120px;
+    height:120px;
+    border-radius: 100%;
+    overflow: hidden;
+    border:1px solid #ddd;
+    position: relative;
+    cursor: pointer !important;
+    text-align: center;
+}
+.profile-image input[type="file"]{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    /* height: calc(2.25rem + 2px); */
+    margin: 0;
+    opacity: 0;
+    height: 100%;
+}
+.profile-image img{
+    width: 100%;
+}
+
+
+
+a.brand-link {
+    display: block;
+    height: 56px;
+    overflow: hidden;
+}
+
+
+.colorBox{
+    width: 30px;
+    height: 30px;
+    border:1px solid #ddd;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+.styled-checkbox + label:before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #3063c9;
+}
+.styled-checkbox:hover + label:before {
+  background: #3063c9;
+}
+.styled-checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.styled-checkbox:checked + label:before {
+  background: #3063c9;
+}
+.styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+ 
+}
+.styled-checkbox:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 11px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+
+
+
+
+
+.color-unstyled{
+  list-style: none;
+  margin: 0px !important;
+  padding:0px !important;
+  background: #f5f5f5;
+
+}
+.color-unstyled:after{
+  clear: both;
+}
+.color-unstyled li{
+  float: left;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.clr{
+  clear: both;
+}
+.modal{
+  z-index: 1200;
+}
+.modal-dialog{
+  max-width: 900px;
+}
+
+.modal-title{
+  width:100%;
+}
+.modal button.close {
+    position: absolute;
+    right: 17px;
+    top: 24px;
+}
+
+
+/*colors checkboxs*/
+
+
+
+.color-styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.color-styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 10px 5px;
+  background: #f2f2f2;
+  margin-right: 3px;
+}
+.color-styled-checkbox + label span {
+  content: '';
+  margin-right: 0px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid #ddd;
+}
+.color-styled-checkbox:hover + label span {
+  background: #3063c9;
+}
+.color-styled-checkbox:focus + label span {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.color-styled-checkbox:checked + label span {
+  background: #3063c9;
+}
+
+.color-styled-checkbox:checked + label{
+  background: #3063c9;
+}
+.color-styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.color-styled-checkbox:disabled + label span {
+  box-shadow: none;
+  background: #ddd;
+ 
+}
+.color-styled-checkbox:checked + label:after {
+content: '';
+    position: absolute;
+    left: 9px;
+    top: 20px;
+    background: #ddd;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 #ddd, 4px -2px 0 #ddd, 4px -4px 0 #ddd, 4px -6px 0 #ddd, 4px -8px 0 #ddd;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/*colors checkboxs*/
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+.unstyled {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.unstyled li {
+  margin: 5px 0;
+}
+
+ul.unstyled.unstyled-sizes{
+  
+} 
+
+ 
+
+ul.unstyled.unstyled-sizes li {
+    margin: 5px 0;
+    margin-right: 20px;
+    background: #f5f5f5;
+    padding: 5px;
+    box-shadow: 0 0 1px black;
+    padding-right: 21px;
+    margin-bottom: 20px;
+}
+ul.unstyled.unstyled-sizes li label{
+  margin-bottom: 0px;
+}
+
+.marginTOP30{
+  margin-top: 30px;
+}
+
+.accordionlist{
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+.accordionlist li.accordionlist-item {
+    width: 100%;
+    background: #fff;
+    margin-top: 15px;
+  /*  padding: 2px 20px;*/
+  border:1px solid #333;
+}
+
+.accordionlist li.accordionlist-item a{
+     color: #fff !important;
+    font-size: 15px;
+    margin-bottom: 0px;
+    display: inline-block;
+    height: 30px;
+    padding-top: 2px;
+}
+
+.accordionlist li.accordionlist-item h4 {
+        position: relative;
+   
+    padding-left: 40px;
+    margin-bottom: 0px;
+    background: #333;
+}
+
+.accordionlist li.accordionlist-item h4 a i{
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ width: 30px;
+ line-height: 39px;
+ background: #222;
+ color: #fff;
+ text-align: center;
+
+}
+.btn{
+  border-radius: 0px;
+}
+
+
+ .panel-collapse{
+  -webkit-transition:height 0.5s; /* Safari */
+  transition:height 0.5s;
+ }
+
+
+ .multiColors {
+    
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px 5px #00000047;
+}
+ .multiColors span{
+   width: 25px;
+   display: inline-block;
+   height: 50px;
+ }
+
+ .singleColors {
+      width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px 5px #00000047;
+
+ }
+ .singleColors span{
+   width: 50px;
+   display: inline-block;
+   height: 50px;
+ }
+
+
+
+
+
+
+ .color-unstyled li {
+    float: left;
+    margin: 0px !important;
+    padding: -6px !important;
+    height: auto;
+    background: #ddd;
+    padding-bottom: 0px !important;
+}
+body{
+  position: relative;
+}
+
+.loading-div{
+  display: none;
+}
+
+.loading-div{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 1300;
+  background: #ffffffbf;
+  padding-top: 4%;
+}
+ 
+/*
+ body.body-loading .loading-div{
+  display: block !important;
+} */
+
+
+
+
+
+
+
+.star-container {
+  text-align: center;
+  font-size: 0;
+}
+.star-container label {
+  display: inline-block;
+  cursor: pointer;
+}
+.star-container label:after {
+  content: "\2605";
+  font-size: 46px;
+  color: #999;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.star-container label:hover:after {
+  color: #F89406;
+}
+.star-container input {
+  display: none;
+}
+/*.star-container #one:checked ~ label[for=one]:after,
+.star-container #two:checked ~ label[for=two]:after,
+.star-container #three:checked ~ label[for=three]:after,
+.star-container #four:checked ~ label[for=four]:after,
+
+.star-container #five:checked ~ label[for=five]:after {
+  color: #F89406;
+}
+.star-container #two:checked ~ label[for=one]:after {
+  color: #F89406;
+}
+.star-container #three:checked ~ label[for=one]:after, .star-container #three:checked ~ label[for=two]:after {
+  color: #F89406;
+}
+.star-container #four:checked ~ label[for=one]:after, .star-container #four:checked ~ label[for=two]:after, .star-container #four:checked ~ label[for=three]:after {
+  color: #F89406;
+}
+.star-container #five:checked ~ label[for=one]:after, .star-container #five:checked ~ label[for=two]:after, .star-container #five:checked ~ label[for=three]:after, .star-container #five:checked ~ label[for=four]:after {
+  color: #F89406;
+}*/
+
+
+/*one*/
+.star-container #one:checked label#Labelone{
+  color: #F89406;
+}
+
+/*two*/
+.star-container #two:checked label#Labelone{
+  color: #F89406;
+}
+.star-container #two:checked label#Labeltwo{
+  color: #F89406;
+}
+
+/*three*/
+.star-container #three:checked label#Labelone{
+  color: #F89406;
+}
+.star-container #three:checked label#Labeltwo{
+  color: #F89406;
+}
+.star-container #three:checked label#Labelthree{
+  color: #F89406;
+}
+
+
+/*four*/
+.star-container #four:checked label#Labelone{
+  color: #F89406;
+}
+.star-container #four:checked label#Labeltwo{
+  color: #F89406;
+}
+.star-container #four:checked label#Labelthree{
+  color: #F89406;
+}
+.star-container #four:checked label#Labelfour{
+  color: #F89406;
+}
+
+/*five*/
+.star-container #five:checked label#Labelone{
+  color: #F89406;
+}
+.star-container #five:checked label#Labeltwo{
+  color: #F89406;
+}
+.star-container #five:checked label#Labelthree{
+  color: #F89406;
+}
+.star-container #five:checked label#Labelfour{
+  color: #F89406;
+}
+.star-container #five:checked label#Labelfive{
+  color: #F89406;
+}
+
+
+
+.rating {
+    float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:100%;
+    line-height:1.2;
+    color:#ddd;
+    /*text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    /*text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+   /* text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    /*text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);*/
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+
+.krajee-default.file-preview-frame .kv-file-content img{
+    
+    background: #ddd !important;
+    
+}
+
+.kv-file-content img{
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+
+
+.easyui-panel .tree-checkbox {
+   opacity: 0;
+}
+
+.easyui-panel ul li ul li span.tree-checkbox, .easyui-panel ul li ul li ul li span.tree-checkbox {
+    opacity: 1;
+}
+
+body{
+  padding: 0px !important;
+}
+
+
+
+.headline{
+    background: #8b8c8e;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 19px;
+    margin: 0px;
+    margin-bottom: 20px;
+
+}
+
+.file-preview .file-drop-zone {
+    height: auto !important;
+}
+
+.remove-del-option .kv-file-remove{
+  display: none;
+}
+
+.mt-2, .my-2 {
+    margin-top: .5rem!important;
+    overflow-y: scroll;
+    height: 500px;
+}
+
+
+
+.cart-table .mockupitem{
+  display: inline-block;
+}
+.cart-table .mockupitem .mockup-items{
+  position: relative;
+}
+.cart-table .mockupitem .olay{
+  position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+             -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms- transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.cart-table .mockupitem:hover .olay{
+  opacity: 1;
+}
+.cart-table img.imgOne,
+.cart-table img.imgTwo{
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  width: 120px;
+  height: 150px;
+    object-fit: contain;
+}
+.cart-table .mockupitem span{
+  width: 100%;
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.cart-table .mockupitem .btn-1{
+  background-color: #3b5a99;    
+  max-width: 89px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.cart-table .mockupitem .btn-1:hover{
+  background-color: #fff;
+}
+.cart-table .mockupitem .olay .btn-1:hover a{
+  color:#3b5a99!important; 
+}
+
+
+.orderSection{
+  margin: 0px;
+  margin-bottom: 30px;
+  border:1px solid #ddd;
+}
+.orderSection h4{
+  font-size: 16px;
+}
+
+.orderSection h5{
+  font-size: 14px;
+}
+.orderSection h4.bg-primary{
+  width:100%;
+  padding: 10px;
+
+    margin-bottom: -1px;
+}
+
+
+
+ol.progtrckr {
+    margin: 0;
+    padding: 0;
+    list-style-type none;
+    min-height: 100px;
+}
+
+ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 3.5em;
+}
+
+ol.progtrckr[data-progtrckr-steps="2"] li { width: 49%; }
+ol.progtrckr[data-progtrckr-steps="3"] li { width: 33%; }
+ol.progtrckr[data-progtrckr-steps="4"] li { width: 24%; }
+ol.progtrckr[data-progtrckr-steps="5"] li { width: 19%; }
+ol.progtrckr[data-progtrckr-steps="6"] li { width: 16%; }
+ol.progtrckr[data-progtrckr-steps="7"] li { width: 14%; }
+ol.progtrckr[data-progtrckr-steps="8"] li { width: 12%; }
+ol.progtrckr[data-progtrckr-steps="9"] li { width: 11%; }
+
+ol.progtrckr li.progtrckr-done {
+    color: black;
+    border-bottom: 4px solid yellowgreen;
+}
+ol.progtrckr li.progtrckr-todo {
+    color: silver; 
+    border-bottom: 4px solid silver;
+}
+
+ol.progtrckr li:after {
+    content: "\00a0\00a0";
+}
+ol.progtrckr li:before {
+    position: relative;
+    bottom: -2.5em;
+    float: left;
+    left: 50%;
+    line-height: 1em;
+}
+ol.progtrckr li.progtrckr-done:before {
+    content: "\2713";
+    color: white;
+    background-color: yellowgreen;
+    height: 2.2em;
+    width: 2.2em;
+    line-height: 2.2em;
+    border: none;
+    border-radius: 2.2em;
+}
+ol.progtrckr li.progtrckr-todo:before {
+    content: "\039F";
+    color: silver;
+    background-color: white;
+    font-size: 2.2em;
+    bottom: -1.2em;
+}
+
+
+ol.progtrckr ~ a.btn{
+  margin-bottom: 20px;
+}
+
+
+
+
+.categoryVariants h3.card-title {
+    background: #f2f2f2;
+    padding: 10px;
+    /* opacity: 0.7; */
+    color: #343a40;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.categoryVariants ul.unstyled.centered {
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    margin-bottom: 15px;
+}

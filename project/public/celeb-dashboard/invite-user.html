@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Customer Dashboard</title>
+      <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">     
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   </head>
+   <body>
+      <!-- Sidebar navigation starts here -->
+      <aside class="dash_sidebar" id="dashSidebar">
+         <a class="sidebar_toggle" href="javascript:void(0);"><span class="icon-right-arrow-angle"></span></a>
+         <div class="sidebar_container">
+            <div class="dash_logo">
+               <a href="javascript:void();" class="lgog">
+                  <img src="images/logo.png">
+               </a>
+            </div>
+            <div class="sidebar_block">
+               <div class="sidebar_profile">
+                  <figure class="profile_logo">
+                       <img src="http://congratz.beesmartitsolutions.com/frontend/images/Justin-Bieber-img.jpg">
+                  </figure>
+                  <div class="profile-infomation">
+                     <h3 class="pro_name">John Doe</h3>
+                     <h6 class="accout_name">@Lorem ipsum</h6>
+                     <ul class="profile_actions">
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"> <i class="fa fa-cog" aria-hidden="true"></i></a>
+                        </li> 
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"> <i class="fa fa-power-off" aria-hidden="true"></i></a>
+                        </li>                       
+                     </ul>
+                  </div>
+               </div>
+               <nav class="sidebar_nav">
+                  <ul class="navigation">
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                           <h4>My Profile</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                           <h4>Invite User</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                           <h4>Wishlist</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                           <h4>Booking</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+                           <h4>Personalized Videos</h4>
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </aside>
+      <!-- Sidebar navigation Ends here -->
+      <!-- Dashboard main content -->
+      <main class="main_layout">
+          <div class="container-fluid">
+            <div class="content-block">
+                <div class="main-heading mb-5">
+                   <h2>Invite User</h2>
+                </div>
+             <div class="card-block mb-5">
+               <form>               
+                <div class="card-inn-heading mb-4"><h3>Refer Friend</h3></div>
+                <div class="form-group">
+                   <span class="input_info mb-2">Copy this referal code and share with friends and family to invite them on Congratz.</span>                
+                    <input type="text" class="form-control" placeholder="congratz.com/join/code">                    
+                  </div>                      
+                
+
+                <a href="javascript:void(0);" class="main-btn"> Copy</a>
+               </form>
+              </div>
+            </div>
+          </div>
+      </main>
+       <!-- Dashboard main content End -->
+
+      <!-- Scripting starts here -->
+      <script src="js/jquery-3.1.0.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/animation.js"></script>
+      <script type="text/javascript" src="js/smooth-scrollbar.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script type="text/javascript">
+           var Scrollbar = window.Scrollbar;
+
+  Scrollbar.init(document.querySelector('.sidebar_block'));
+      </script>
+
+   </body>
+</html>

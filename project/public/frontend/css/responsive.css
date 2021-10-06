@@ -1,0 +1,303 @@
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 90%;
+    }
+}
+@media (max-width: 1370px) {
+    .container {
+        max-width: 90%;
+    }
+    .bnnner-content{
+        max-width: 400px;
+    }
+    .hero-heading h1{
+        font-size: 50px;
+    }
+    .sign-shape.sign-shape-1 {
+    left: -238px;
+    top: -110px;
+}
+.sign-shape.sign-shape-2 {
+    top: -182px;
+    left: -190px;
+}
+.sign-shape.sign-shape-3 {
+    top: -208px;
+    left: -50px;
+}
+.sign-shape.sign-shape-4 {
+    top: -195px;
+    right: -174px;
+}
+.sign-shape.sign-shape-5 {
+    bottom: -26px;
+    right: -259px;
+}
+.slick-arrow{
+    left: -60px;
+}
+.slick-arrow.right-arrow {
+    left: auto;
+    right: -60px;
+}
+.celeb-img{
+    width: 140px;
+    height: 140px;
+    margin-top: -70px;
+}
+.live.Offline, .live.Online{
+    right: 12px;
+}
+}
+
+
+@media(max-width: 1199px) {
+  .saronic-Island-gallery .gallery-slider-for{
+  	position: static;
+  	width: 100%;
+    margin-bottom: 30px;
+  }
+  .inspiration-gallery .gallery-slider-for {
+    margin-top: 30px;
+}
+.tab-accordion .nav-tabs .nav-item {
+    padding: 0px 15px;
+}
+.galler_inn_content {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.gallery-slider-for .slick-list, .gallery-slider-for .slick-track, .gallery-slider-for .gallery-slider-img {
+    height: auto;
+}
+.cstm-flex-wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cstm-flex-wraper .galler_inn_content {
+    order: 2;
+}
+.cstm-flex-wraper .gallery-slider-nav{
+    order: 1;
+    width: 100%;
+}
+}
+@media(max-width: 991px) {
+.main-header .logo {
+    max-width: 180px;
+    }
+    .contact_number h5{
+    	display: none;
+    }
+    .enquiry-btn {
+    display: none;
+}
+.bottom-nav li a {
+    font-size: 14px;
+    padding: 8px 8px;
+}
+.slick-arrow{
+    left: -15px;
+}
+.slick-arrow.right-arrow{
+    left: auto;
+    right: -15px;
+}
+.contact_number .cnt-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    }
+    .device-menu{
+    	height: 40px;
+    	width: 40px;
+    }
+    .device-menu .device-menu__inner {
+    width: 20px;
+    height: 14px;
+    }
+    .device-menu span {
+    height: 2px;
+    overflow: hidden;
+   }
+   .device-menu.open .device-menu__inner{
+   	top: 38%;
+   }
+   .sec-heading h2 {
+    font-size: 32px;
+}
+.tab-accordion .nav-tabs .nav-link{
+	font-size: 15px;
+}
+.tab-accordion .nav-tabs .nav-item{
+	padding: 0px 10px;
+}
+.skipper-gallery [class*="col-"]:nth-child(odd) .skipper-gallery-card {
+    margin-top: 50px;
+}
+.bnnner-content h1 {
+    font-size: 42px;
+}
+.bnnner-content h6 {
+    font-size: 17px;
+    }
+ .bnnner-content h5 {
+    font-size: 22px;
+}
+.love-greece-sec {
+    padding: 50px 0px 80px;
+}
+.holidays-guide-sec {
+    padding: 50px 0px;
+}
+.sailing-region-sec {
+    padding: 50px 0px;
+}
+.inspiration-sec {
+    padding: 50px 0px;
+}
+.featured-logo-list li {
+    padding: 15px 10px;
+    width: 50%;
+}
+.featured-logo-list {
+    margin: 0px -10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+}
+@media(min-width:768px) {
+    .tab-accordion .nav-tabs {
+        display: flex;
+    }
+    
+    .tab-accordion .card {
+        border: none;
+    }
+
+    .tab-accordion .card .card-header {
+        display:none;
+    }  
+
+    .tab-accordion .card .collapse{
+        display:block;
+    }
+}
+
+@media(max-width:767px){
+    .tab-accordion .tab-content > .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+    .contact-list li {
+    padding: 0px 0px;
+}
+.bottom-nav li{
+	padding: 0px 2px;
+}
+.bottom-nav li a {
+    font-size: 12px;
+    padding: 8px 8px;
+    min-width: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px 0px;
+}
+.sec-heading h2 {
+    font-size: 22px;
+}
+.heading-highlight {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.bottom-nav.fixed{
+	height: 90px;
+}
+.bnnner-content h1 {
+    font-size: 28px;
+}
+.bnnner-content h5 {
+    font-size: 18px;
+}
+.bnnner-content h6 {
+    font-size: 14px;
+}
+.tab-accordion .card-body {
+    padding: 10px;
+}
+.tab-accordion .card-header {
+	border-radius: 0 !important;
+    background-color: transparent;
+    border-bottom: none;
+    padding: 0px;
+}
+.tab-accordion .card-header a{
+	padding: 10px;
+	background-color: rgb(64 158 198);
+	display: block;
+	color: #fff;
+	position: relative;
+}
+.tab-accordion .card-header a.collapsed {
+	background-color: transparent;
+	color: #333;
+	}
+.tab-accordion .card{
+	border: 1px solid rgb(64 158 198);
+	margin-bottom: 10px;
+}
+.tab-accordion .card-header a:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.tab-accordion .card-header a.collapsed:after {
+    content: "\f067"; 
+}
+.greece-content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    }
+    .greece-content p{
+    	font-size: 15px;
+    	line-height: 1.4;
+    }
+    .beach-banner-overlay h6 {
+    font-size: 17px;
+}
+.beach-banner-overlay h5 {
+    font-size: 18px;
+}
+.beach_banner-sec {
+    min-height: 320px;
+}
+.yacht-charter-sec{
+	padding-top: 0px;
+}
+.yacht-charter-content {
+    position: relative;
+    top: 0;
+}
+.yacht-charter-img img {
+    margin-top: -120px;
+}
+.footer-logo-bar a {
+    max-width: 150px;
+}
+}
+@media(max-width:480px){
+	.skipper-gallery [class*="col-"]:nth-child(odd) .skipper-gallery-card {
+	    margin-top: 15px;
+	}
+}

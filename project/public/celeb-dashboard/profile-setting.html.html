@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Customer Dashboard</title>
+      <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">     
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   </head>
+   <body>
+      <!-- Sidebar navigation starts here -->
+      <aside class="dash_sidebar" id="dashSidebar">
+         <a class="sidebar_toggle" href="javascript:void(0);"><span class="icon-right-arrow-angle"></span></a>
+         <div class="sidebar_container">
+            <div class="dash_logo">
+               <a href="javascript:void();" class="lgog">
+                  <img src="images/logo.png">
+               </a>
+            </div>
+            <div class="sidebar_block">
+               <div class="sidebar_profile">
+                  <figure class="profile_logo">
+                       <img src="http://congratz.beesmartitsolutions.com/frontend/images/Justin-Bieber-img.jpg">
+                  </figure>
+                  <div class="profile-infomation">
+                     <h3 class="pro_name">John Doe</h3>
+                     <h6 class="accout_name">@Lorem ipsum</h6>
+                     <ul class="profile_actions">
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"><i class="fa fa-home" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"> <i class="fa fa-cog" aria-hidden="true"></i></a>
+                        </li> 
+                        <li>
+                           <a href="javascript:void();" class="profile_action_btn"> <i class="fa fa-power-off" aria-hidden="true"></i></a>
+                        </li>                       
+                     </ul>
+                  </div>
+               </div>
+               <nav class="sidebar_nav">
+                  <ul class="navigation">
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                           <h4>My Profile</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                           <h4>Invite User</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                           <h4>Wishlist</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                           <h4>Booking</h4>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);" class="nav-link">
+                           <span class="nav-icon"><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+                           <h4>Personalized Videos</h4>
+                        </a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </aside>
+      <!-- Sidebar navigation Ends here -->
+      <!-- Dashboard main content -->
+      <main class="main_layout">
+          <div class="container-fluid">
+            <div class="content-block">
+                <div class="main-heading mb-5">
+                   <h2>Profile Settings</h2>
+                </div>
+             <div class="card-block mb-5">
+               <form>
+                 <div class="form-group">
+                   <div class="switch-holder">
+                    <div class="switch-label">
+                        <i class="fas fa-moon"></i><span>Dark Mode</span>
+                    </div>
+                    <div class="switch-toggle" data-children-count="1">
+                        <input type="checkbox" name="toggleTheme" id="data-theme" data-dark="http://congratz.beesmartitsolutions.com/theme-mode/dark" data-light="http://congratz.beesmartitsolutions.com/theme-mode/light">
+                        <label for="data-theme"></label>
+                    </div>
+                </div>
+                </div>
+
+               
+
+                <div class="profile-setting_card mb-4">
+                <div class="card-inn-heading mb-4"><h3>Change Password</h3></div>
+                <div class="form-group">
+                   <label class="inline-label mb-2">Current Password</label>
+                   <div class="input_wrap">
+                    <span class="input-left-icon"><i class="fas fa-lock"></i></span>
+                    <input type="email" class="form-control" placeholder="Password">
+                    <div class="input-right-icon">
+                      <a href=""> <i class="fas fa-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                   <label class="inline-label mb-2">New Password</label>
+                   <div class="input_wrap">
+                    <span class="input-left-icon"><i class="fas fa-lock"></i></span>
+                    <input type="email" class="form-control" placeholder="New Password">
+                    <div class="input-right-icon">
+                      <a href=""> <i class="fas fa-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                   <label class="inline-label mb-2">Confirm Password</label>
+                   <div class="input_wrap">
+                    <span class="input-left-icon"><i class="fas fa-lock"></i></span>
+                    <input type="email" class="form-control" placeholder="New Password">
+                    <div class="input-right-icon">
+                      <a href=""> <i class="fas fa-eye"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="profile-setting_card mb-4">
+                <div class="card-inn-heading mb-4"><h3>Switch Language</h3></div>
+                 <div class="form-group">
+                   <label class="inline-label mb-2">Choose Languahe</label>
+                    <select class="form-control">
+                      <option>English</option>
+                      <option>Arabic</option>
+                    </select>
+                </div>
+              </div>
+              <div class="profile-setting_card">
+                <div class="card-inn-heading mb-4"><h3>Delete Account</h3></div>
+                 <div class="form-group d-f j-c-s-b a-i-c">
+                   <label class="inline-label">Temperory disable your account</label>
+                   <a href="javascript:void(0);" class="main-btn ml-2 mini-btn color-dark" data-toggle="modal" data-target="#myModal"> Disable Account</a>
+                              <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content p-3">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="modal-header d-block text-center">
+                     <h4 class="modal-title">Please enter the username to confirm temperory disable of your account</h4>
+                      </div>
+                    <div class="modal-body">
+                    <form>
+                 <div class="form-group">
+                   <label class="inline-label mb-2">Username</label>
+                   <div class="row">
+                    <div class="col-sm-12">
+                    <input type="email" class="form-control" placeholder="&#61447; Username">
+                    <div class="input-right-icon">
+                      <a href=""> <i class="fas fa-pen"></i></a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <a href="javascript:void(0);" class="main-btn2 d-block text-center mx-auto"> Submit</a>
+
+              </form>
+              </div>
+              <div class="modal-footer d-block text-center mx-auto">
+              <p>Once you disable your account, your account will be disable for shorter period of time. To enable your account back, you need to login again using same credentials.</p>
+              </div>
+            </div>
+                            
+              </div>
+            </div>
+                 </div>
+                 <div class="form-group d-f j-c-s-b a-i-c">
+                   <label class="inline-label">Permanently delete your account</label>
+                   <a href="javascript:void(0);" id="myBtn1"class="main-btn ml-2 mini-btn color-red" data-toggle="modal" data-target="#myModal1"> Delete Account</a>
+                   <div class="modal fade" id="myModal1" role="dialog">
+                  <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content p-3">
+                     <button type="button" class="close1" data-dismiss="modal">&times;</button>
+                    <div class="modal-header d-block text-center">
+                     <h4 class="modal-title">Please enter the username to confirm the deletion of account</h4>
+                      </div>
+                    <div class="modal-body">
+                    <form>
+                 <div class="form-group">
+                   <label class="inline-label mb-2">Username</label>
+                   <div class="row">
+                    <div class="col-sm-12">
+                    <input type="email" class="form-control" placeholder="&#61447; Username">
+                    <div class="input-right-icon">
+                      <a href=""> <i class="fas fa-pen"></i></a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <a href="javascript:void(0);" class="main-btn2 d-block text-center mx-auto" data-toggle="modal" data-target="#myModal1"> Submit</a>
+
+              </form>
+              </div>
+              <div class="modal-footer d-block text-center mx-auto">
+              <p>Once account is deleted, all data will be lost and user need to recreate their account to join portal and utilize services offered.</p>
+              </div>
+            </div>
+                            
+              </div>
+            </div>
+
+                 </div>
+               </div>
+                
+
+                <a href="javascript:void(0);" class="main-btn2 mt-5"> Save Changes</a>
+               </form>
+              </div>
+            </div>
+          </div>
+      </main>
+       <!-- Dashboard main content End -->
+
+      <!-- Scripting starts here -->
+      <script src="js/jquery-3.1.0.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> 
+      <script src="js/animation.js"></script>
+      <script type="text/javascript" src="js/smooth-scrollbar.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
+      <script type="text/javascript">
+           var Scrollbar = window.Scrollbar;
+
+  Scrollbar.init(document.querySelector('.sidebar_block'));
+
+
+// Get the modal
+var modal = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+      </script>
+
+   </body>
+</html>
